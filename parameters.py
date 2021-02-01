@@ -17,7 +17,7 @@ opt_method = 'Adam'
 loss_function = 'mean_squared_error' 
 equation = 'wave'                             # heat, nonlinear_heat, wave, heat_2D
 model_type = 'Dense'                          # CNN, Dense, CNN_2D
-IC = 2                                      # Choose from the following initial conditions
+IC = 1                                        # Choose from the following initial conditions
 # f = lambda t: -t**2*(t-1)**2*(t-1/2)**2     # IC = 1
 # f = lambda t: -t**2*(t-1)**2*(t+1/2)**2     # IC = 2    
 # f = lambda t: -t**2*(t-1)**2*(t-1/4)**2     # IC = 3

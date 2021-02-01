@@ -14,7 +14,6 @@ from FTCS_nonlin import *
 from scipy.optimize import Bounds, minimize, BFGS, SR1, fminbound
 from generate_data import *
 from generate_model import *
-from flatten_unflatten import *
 from scipy import trapz 
 from scipy.interpolate import CubicSpline, interp2d, griddata
 from nodes import *
